@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is a small project I made just for fun and to help some of my friends feel less lonely. It's really sad to see them like that🥲. To make it work on Android and similar platforms, I modified this application to make it more natural with [median.co](https://median.co/) It will generate .apk files and similar formats.
 
 
-Behind this application, I'm using [node_characterai_vercel](https://github.com/facebook/create-react-app) It takes the source code from the repository [Character AI Unofficial Node API](https://github.com/realcoloride/node_characterai) with slight modifications to run on Vercel. See more at -> https://github.com/realcoloride/node_characterai
+Behind this application, I'm using [node_characterai_vercel](https://github.com/anwarizz/node_characterai_vercel) It takes the source code from the repository [Character AI Unofficial Node API](https://github.com/realcoloride/node_characterai) with slight modifications to run on Vercel. See more at -> https://github.com/realcoloride/node_characterai
+
+Besides that, I use Firebase to store all message histories. So if you want to clone this project to make your friends happy as well, you'll need to configure Firebase, create database, and so on in Firebase Realtime Database, then connect it in ```src/firebase.js```
 
 
 <img src="https://gqhygebxvljzpaawzyzl.supabase.co/storage/v1/object/sign/github/WhatsApp%20Image%202024-08-30%20at%2015.19.58_3c3aee2b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJnaXRodWIvV2hhdHNBcHAgSW1hZ2UgMjAyNC0wOC0zMCBhdCAxNS4xOS41OF8zYzNhZWUyYi5qcGciLCJpYXQiOjE3MjUwMDI2NDUsImV4cCI6MTc1NjUzODY0NX0.o-dafL9WSG6TmtPEtLl8xGUheAgTEIF2KABdeYs-PF0&t=2024-08-30T07%3A24%3A02.039Z" alt="Deskripsi Gambar" width="250">
