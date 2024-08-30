@@ -8,6 +8,7 @@ Behind this application, I'm using [node_characterai_vercel](https://github.com/
 
 Besides that, I use Firebase to store all message histories. So if you want to clone this project to make your friends happy as well, you'll need to configure Firebase, create database, and so on in Firebase Realtime Database, then connect it in ```src/firebase.js```
 
+You can modify or configure the bot's profile photo, including its name, as well as all the response photos it will send when you request them. You can place these configurations in `src/data/index.js` You can use external image URLs from the internet for the profile photo and other images.
 
 <img src="https://gqhygebxvljzpaawzyzl.supabase.co/storage/v1/object/sign/github/WhatsApp%20Image%202024-08-30%20at%2015.19.58_3c3aee2b.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJnaXRodWIvV2hhdHNBcHAgSW1hZ2UgMjAyNC0wOC0zMCBhdCAxNS4xOS41OF8zYzNhZWUyYi5qcGciLCJpYXQiOjE3MjUwMDI2NDUsImV4cCI6MTc1NjUzODY0NX0.o-dafL9WSG6TmtPEtLl8xGUheAgTEIF2KABdeYs-PF0&t=2024-08-30T07%3A24%3A02.039Z" alt="Deskripsi Gambar" width="250">
 
